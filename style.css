@@ -11,6 +11,11 @@ body {
 .menu-topmenu-container {
   margin: auto;
   width: 1000px;
+  max-width: 100%;
+}
+
+ul {
+  overflow: hidden;
 }
 
 .slogan {
@@ -36,10 +41,6 @@ hr {
   background-repeat: no-repeat;
   background-image: url(images/mainlogoimg.png);
   cursor: pointer;
-}
-
-ul {
-  overflow: hidden;
 }
 
 .left-horizontal-li {
@@ -85,6 +86,8 @@ li {
   width: 800px;
   height: 150px;
   margin: auto;
+  min-width: 300px;
+  max-width: 800px;
 }
 
 .card-box {
@@ -117,8 +120,11 @@ li {
 }
 
 #zolArt {
-  width: 100%;
-  height: 60%;
+  width: 150%;
+
+}
+#profilPic{
+ width: 65%;
 }
 
 #contact {
@@ -148,8 +154,14 @@ li {
 }
 a{
   text-decoration: none;
+  color:black;
 }
 a:hover{
   color: white;
   background-color: darkslategrey;
+}
+.footerTable{
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 20%;
 }
